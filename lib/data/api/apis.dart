@@ -31,7 +31,7 @@ class WanAndroidApi {
 
   static const String lg_collect_list = "lg/collect/list"; //收藏文章列表
   static const String lg_collect = "lg/collect"; //收藏站内文章
-  static const String lg_uncollect_originid = "lg/uncollect_originId"; //取消收藏
+  static const String lg_uncollect_orxiginid = "lg/uncollect_originId"; //取消收藏
 
   static String getPath({String path: '', int page, String resType: 'json'}) {
     StringBuffer sb = new StringBuffer(path);

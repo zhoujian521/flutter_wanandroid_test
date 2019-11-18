@@ -38,7 +38,7 @@ class CollectRepository {
     BaseResp baseResp = await DioUtil().request(
         Method.post,
         WanAndroidApi.getPath(
-            path: WanAndroidApi.lg_uncollect_originid, page: id));
+            path: WanAndroidApi.lg_uncollect_orxiginid, page: id));
     if (baseResp.code != Constant.status_success) {
       return Future.error(baseResp.msg);
     }

@@ -5,7 +5,6 @@ import 'package:flutter_wanandroid/ui/pages/page_index.dart';
 
 class _Page {
   final String labelId;
-
   _Page(this.labelId);
 }
 

@@ -99,6 +99,7 @@ class HomePage extends StatelessWidget {
     RefreshController _controller = new RefreshController();
     final MainBloc bloc = BlocProvider.of<MainBloc>(context);
     bloc.homeEventStream.listen((event) {
+      print('~~~~$labelId~~${event.labelId}~~~~~~~');
       if (labelId == event.labelId) {
         _controller.sendBack(false, event.status);
       }
